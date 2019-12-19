@@ -1,0 +1,72 @@
+{
+    "name": "RapidMiner",
+    "description": "RapidMiner is a software platform for data science teams that unites data prep, machine learning, and predictive model deployment.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28241-rapidminer.jpg",
+    "tags": [
+        "data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/rapidminer\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "RapidMiner",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28241-rapidminer.jpg",
+            "humanURL": "https:\/\/rapidminer.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/rapidminer-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/rapidminer"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/docs.rapidminer.com\/"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/docs.rapidminer.com\/8.1\/server\/advanced-topics\/rest-api\/"
+        },
+        {
+            "type": "Email",
+            "url": "twentworth@rapidminer.com"
+        },
+        {
+            "type": "Email",
+            "url": "privacy@rapidminer.com"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/rapidminer\/"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/rapidminer.com\/pricing\/"
+        },
+        {
+            "type": "Support",
+            "url": "https:\/\/docs.rapidminer.com\/latest\/support\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/RapidMiner"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/rapidminer.com"
+        }
+    ]
+}
