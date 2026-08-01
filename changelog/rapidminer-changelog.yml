@@ -1,0 +1,51 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/rapidminer/python-rapidminer/blob/master/CHANGES.md
+scope: rapidminer Python package (Altair AI Studio / AI Hub client)
+scheme: >-
+  From version 10.1.0 the package uses standardised versioning; the first three
+  numbers indicate the RapidMiner/Altair AI platform (Studio and AI Hub) version
+  the package targets.
+current_version: 2026.0.2
+entries:
+- version: 2026.0.2
+  breaking: false
+  highlights:
+  - Added deprecation warning for this last release of the package.
+- version: 2026.0.1
+  breaking: false
+  highlights:
+  - Fixed internal core package usability.
+- version: 2026.0.0
+  breaking: false
+  highlights:
+  - Switched from setup.py to modern pyproject.toml packaging with flexible
+    dependency version ranges, reducing installation conflicts.
+- version: 2025.1.0
+  breaking: false
+  highlights:
+  - Removed version restrictions for numpy and pandas.
+- version: 2025.0.0
+  breaking: false
+  highlights:
+  - Added full support of attribute/column roles.
+- version: 2024.1.0
+  breaking: false
+  highlights:
+  - Bugfix - DataFrame reading error for integer columns.
+  - Bugfix - read process details via a non-deprecated endpoint.
+- version: 10.2.0
+  breaking: true
+  highlights:
+  - Reworked authentication to support the offline_token method.
+  - Removed username-password OAuth authentication for WebApi and Server classes.
+- version: 10.1.0
+  breaking: false
+  highlights:
+  - Introduced a new interface for Web API endpoints.
+- version: 10.0.0.0
+  breaking: false
+  highlights:
+  - Added authentication option to Scoring.
+  - Adapted authentication to AI Hub 10.0.0 across all classes.
+  - Added support for reading rmhdf5table files to Studio.

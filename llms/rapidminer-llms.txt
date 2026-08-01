@@ -1,0 +1,31 @@
+# RapidMiner (Altair RapidMiner / Altair AI)
+
+> RapidMiner is a data science and machine learning platform that unites data preparation, machine learning, and predictive model deployment in a visual, low-code environment. Now part of Altair (Altair AI Studio and Altair AI Hub). The primary developer surface is the official `rapidminer` Python package plus a Java/Python extension SDK; AI Hub exposes deployed Web API and Scoring endpoints authenticated via OAuth offline tokens. No public REST OpenAPI specification is published.
+
+## Developer
+
+- [Developer documentation](https://docs.rapidminer.com/latest/developers): Extension development (Java and Python), operator reference, and platform developer guides.
+- [Documentation home](https://docs.rapidminer.com/latest/): Altair AI Studio and AI Hub product documentation.
+- [Altair AI Cloud docs](https://cloud.rapidminer.com/help/docs/intro/): Projects, data assets, workflow and agent studio.
+
+## SDKs and packages
+
+- [python-rapidminer (GitHub)](https://github.com/rapidminer/python-rapidminer): Official Python API for RapidMiner Studio and Server / AI Hub.
+- [rapidminer (PyPI)](https://pypi.org/project/rapidminer/): `pip install rapidminer` — Studio, Server, Project, Connections, and Scoring classes plus Web API endpoints. Version 2026.0.2 is the last release.
+- [Changelog (CHANGES.md)](https://github.com/rapidminer/python-rapidminer/blob/master/CHANGES.md): Python package release notes.
+
+## Source and extensions
+
+- [RapidMiner GitHub organization](https://github.com/rapidminer): 25 public repositories including studio, belt, and extension templates.
+- [Extension template](https://github.com/rapidminer/rapidminer-extension-template): Template for building a RapidMiner extension.
+
+## Authentication
+
+- AI Hub uses OAuth against a Keycloak-style authentication server; clients supply an `authentication_server` URL, a long-lived `offline_token`, and a `client_secret`. Username/password OAuth was removed for the WebApi and Server classes in package 10.2.0. SAML authentication on AI Hub is not supported by the Python client.
+
+## Artifacts (API Evangelist enrichment)
+
+- [Packages](https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/packages/rapidminer-packages.yml)
+- [Changelog](https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/changelog/rapidminer-changelog.yml)
+- [Authentication](https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/authentication/rapidminer-authentication.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/security/rapidminer-domain-security.yml)

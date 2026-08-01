@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/rapidminer/python-rapidminer/blob/master/README.md
+notes: >-
+  No public OpenAPI/securitySchemes were found; this profile is derived from the
+  official python-rapidminer client documentation. Altair AI Hub authenticates
+  clients via OAuth against a Keycloak-style authentication server. From package
+  version 10.2.0, username/password OAuth for the WebApi and Server classes was
+  removed in favor of the offline token (refresh token) method. SAML
+  authentication on AI Hub is not supported by the Python client.
+summary:
+  types: [oauth2]
+  oauth2_flows: [refresh_token]
+schemes:
+- name: aiHubOfflineToken
+  type: oauth2
+  flow: refresh_token
+  description: >-
+    Long-lived offline (refresh) token issued by the AI Hub authentication
+    server, exchanged with a client_secret for access tokens. Configured on the
+    Server/Connections/Scoring classes via authentication_server, offline_token,
+    and client_secret parameters.
+  parameters:
+    authentication_server: URL of the AI Hub auth server (e.g. https://host:8081/auth)
+    offline_token: long-lived offline/refresh token
+    client_secret: client secret paired with the offline token
+  sources: [README.md]
+- name: aiHubVault
+  type: other
+  description: >-
+    AI Hub Vault stores sensitive connection field values; encrypted connection
+    values are injected transparently when a Server instance is provided.
+  sources: [README.md]

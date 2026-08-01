@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of /.well-known/* on RapidMiner hosts
+notes: >-
+  No machine-readable /.well-known discovery documents (security.txt,
+  openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json)
+  were served with HTTP 200 on the RapidMiner hosts. docs.rapidminer.com returns
+  403/302 and cloud.rapidminer.com returns 404 across the probed paths. AI Hub
+  OIDC discovery is instance-specific (per self-hosted authentication server) and
+  not published on a public host. No files were saved; nothing to index.
+hosts:
+- host: https://docs.rapidminer.com
+  documents:
+  - {path: /.well-known/security.txt, status: 403}
+  - {path: /.well-known/openid-configuration, status: 302}
+  - {path: /.well-known/oauth-authorization-server, status: 302}
+  - {path: /.well-known/api-catalog, status: 302}
+  - {path: /.well-known/ai-plugin.json, status: 403}
+- host: https://cloud.rapidminer.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}

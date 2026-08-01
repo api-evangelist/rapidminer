@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/pypi/rapidminer/json
+notes: >-
+  Official first-party Python client for Altair AI Studio and Altair AI Hub
+  (formerly RapidMiner). Version 2026.0.2 carries a deprecation warning marking
+  it as the last release of the package. No first-party npm, Maven Central,
+  NuGet, RubyGems, Packagist, or crates.io client library was found; the Java
+  platform is distributed as the RapidMiner Studio application/extensions rather
+  than a published client SDK.
+packages:
+- language: python
+  registry: pypi
+  name: rapidminer
+  version: 2026.0.2
+  url: https://pypi.org/project/rapidminer/
+  repository: https://github.com/rapidminer/python-rapidminer
+  install: pip install rapidminer
+  official: true
+  description: >-
+    Tools for running RapidMiner processes and managing RapidMiner repositories;
+    interacts with Altair AI Studio and AI Hub via Studio, Server, Project,
+    Connections, and Scoring classes plus Web API endpoints.
+  deprecated: true
+  deprecation_note: Version 2026.0.2 is marked as the last release of the package.

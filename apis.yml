@@ -1,8 +1,17 @@
 aid: rapidminer
 name: Rapidminer
-description: 'Rapidminer is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  RapidMiner (now Altair RapidMiner / Altair AI) is a data science and machine
+  learning platform that unites data preparation, machine learning, and
+  predictive model deployment in a visual, low-code environment. The developer
+  surface is centered on the official `rapidminer` Python package for
+  interacting with Altair AI Studio and Altair AI Hub — reading and writing
+  data, running and scheduling processes, managing git-based versioned projects
+  and connections, and calling deployed Web API and Scoring endpoints — plus a
+  Java/Python extension SDK for building custom operators. AI Hub authenticates
+  via OAuth (offline token against a Keycloak-style authentication server). The
+  company was surfaced as a portfolio company of Earlybird; RapidMiner was
+  acquired by Altair, now part of Siemens.
 url: https://raw.githubusercontent.com/api-evangelist/rapidminer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +19,65 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://avatars.githubusercontent.com/u/4490278?v=4
 tags:
 - Company
 - Ai
+- Machine Learning
+- Data Science
+- Predictive Analytics
+- Data Preparation
+- Model Deployment
+- Analytics
 apis: []
+common:
+- type: Website
+  url: https://altair.com/altair-rapidminer
+- type: Documentation
+  url: https://docs.rapidminer.com/latest/
+- type: DeveloperPortal
+  url: https://docs.rapidminer.com/latest/developers
+- type: GitHubOrganization
+  url: https://github.com/rapidminer
+- type: SourceCode
+  url: https://github.com/rapidminer/python-rapidminer
+- type: ChangeLog
+  url: https://github.com/rapidminer/python-rapidminer/blob/master/CHANGES.md
+- type: Packages
+  url: packages/rapidminer-packages.yml
+- type: SDKs
+  url: packages/rapidminer-packages.yml
+- type: ChangeLog
+  name: Python package changelog (artifact)
+  url: changelog/rapidminer-changelog.yml
+- type: Authentication
+  url: authentication/rapidminer-authentication.yml
+- type: DomainSecurity
+  url: security/rapidminer-domain-security.yml
+- type: LLMsTxt
+  url: llms/rapidminer-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
