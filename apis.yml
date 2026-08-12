@@ -46,6 +46,9 @@ tags:
 - Analytics
 apis: []
 common:
+- type: License
+  name: AGPL-3.0
+  url: https://github.com/rapidminer/python-rapidminer/blob/master/LICENSE
 - type: Website
   url: https://altair.com/altair-rapidminer
 - type: Documentation
