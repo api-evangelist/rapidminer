@@ -19,6 +19,18 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+deliveryModel:
+  model: self-hosted
+  license: AGPL-3.0
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
@@ -55,6 +67,8 @@ tags_raw:
 - Analytics
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/rapidminer/python-rapidminer/issues
 - type: License
   name: AGPL-3.0
   url: https://github.com/rapidminer/python-rapidminer/blob/master/LICENSE
