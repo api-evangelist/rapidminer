@@ -51,7 +51,7 @@ image: https://avatars.githubusercontent.com/u/4490278?v=4
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Predictive Analytics
 - Data Preparation
@@ -66,6 +66,7 @@ tags_raw:
 - Data Preparation
 - Model Deployment
 - Analytics
+- Machine-Learning
 apis: []
 common:
 - type: IssueTracker
